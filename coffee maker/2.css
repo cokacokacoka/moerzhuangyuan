@@ -1,0 +1,12 @@
+h1{
+    color:rgb(255, 0, 111);
+    font-size: 24pt;
+    font-weight: bold;
+    }
+    h1:hover{
+        color: brown;
+    }
+    a{
+        color: rgb(0, 255, 229);
+        font-size: 24pt;
+    }

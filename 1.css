@@ -1,0 +1,8 @@
+h1{
+    color:rgb(255, 0, 111);
+    font-size: 24pt;
+    font-weight: bold;
+    }
+    h1:hover{
+        color: brown;
+    }

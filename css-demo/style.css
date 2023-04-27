@@ -1,0 +1,43 @@
+html{
+    font-size: 24pt;
+}
+
+body {
+    background-color: greenyellow;
+    width: 800px;
+    font-size: 24pt;
+}
+
+article{
+    font-size: 2em;
+}
+h1{
+    font-size: 4rem;
+    color: rgb(255, 2, 221,0.7);
+}
+
+p{
+    color: rgb(255, 2, 221,0.7);
+    width: 50%;
+    font-size: 0.5rem;
+
+}
+
+a{
+    color: inherit;
+    font-size: 2rem;
+}
+
+.myclass{color: rgb(8, 16, 239);}
+.green{color: blueviolet;}
+
+#first{
+    font-weight: bold;
+}
+
+body article p {
+	color: yellow;
+}
+p:hover{
+    color: red;
+}
