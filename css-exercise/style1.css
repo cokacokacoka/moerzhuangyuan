@@ -1,0 +1,70 @@
+html{
+    font-size: 24pt;
+}
+
+body {
+    background-color: #fdb095;
+    width: 800px;
+    font-size: 24pt;
+}
+
+article{
+    font-size: 2em;
+}
+h1{
+    font-size: 2rem;
+    color: #210440; text-shadow: -1px -1px 1px #aaa,
+    0px 4px 1px rgba(0,0,0,0.5),
+    4px 4px 5px rgba(0,0,0,0.7),
+    0px 0px 7px rgba(0,0,0,0.4);
+   
+} 
+h1:hover{color:yellow}
+
+h2{ font-size: 2rem;
+    color:#210440}
+    h2:hover{color:yellow}
+
+h3{ font-size: 2rem;
+    color:#210440}
+    h3:hover{color:yellow}
+
+h4{ font-size: 2rem;
+    color:#210440}
+    h4:hover{color:yellow}
+
+h5{ font-size: 2rem;
+    color:#210440}
+    h5:hover{color:yellow}
+
+
+p{
+    color: rgb(255, 2, 221,0.7);
+    width: 100%;
+    font-size: 0.5rem;
+
+}
+
+a{
+    color:rgb(255, 53, 97);
+    font-size: 0.7rem;
+}
+
+.myclass{color:#d36055}
+.myclass{font-size: 0.5rem;}
+.myclass:hover{font-size: 0.55rem;}
+    
+   
+
+.green{color: blueviolet;}
+
+#first{
+    font-weight: bold;
+}
+
+body article p {
+	color: yellow;
+}
+p:hover{
+    color: rgb(255, 53, 97);font-size: 0.55rem
+}

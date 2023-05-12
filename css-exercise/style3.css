@@ -1,0 +1,15 @@
+article .important {
+    color:#D6C7FF; /* 只匹配处于<article>元素里面的带有.important类的元素 */
+   }
+   
+   article em {
+    color: #68b2a0; /* 匹配所有处于<article>元素里面的<em>元素，既包括<h1>元素中的，也包括<p>元素中的 */
+   }
+   
+   p{
+       background-color:#cde0c9
+   }
+   body {
+       background-color: #e0ecde;}
+       h1{color: #2c6975;}
+       p{color: #68b2a0;}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Box Model</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link rel="icon" href="../assets/favicon.png" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <style>
+
+.box {
+        width: 200px;
+        height: 200px;
+        background: green;
+        margin: 50px;
+        padding: 20px;
+        border: 10px solid pink;
+        position: sticky;
+    top: 0;
+      }
+
+      
+
+      #content {
+        box-sizing: content-box;
+      }
+      #border {
+        box-sizing: border-box; position: sticky;
+    top: 0;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="box" id="content"></div>
+    <div class="box" id="border"></div>
+    <p class="t40-l10 gold">Do not go gentle into that good night,</p>
+    <p class="t20-r30 lightpink">Old age should burn and rave at close of day;</p>
+    <p class="b25-r20 forestgreen">Rage, rage against the dying of the light.</p>
+    <p class="t20-r30 skyblue">Though wise men at their end know dark is right,</p>
+    
+    <p class="b15-l30 forestgreen">Because their words had forked no lightning they</p>
+    <p class="t20-r30 gold">Do not go gentle into that good night.</p>
+    <p class="b25-r20 skyblue">Good men, the last wave by, crying how bright.</p>
+    <p class="t40-l10 lightpink">Their frail deeds might have danced in a green bay,</p>
+    
+    <p class="t40-l10 skyblue">Rage, rage against the dying of the light.</p>
+    <p class="t20-r30 lightpink">Wild men who caught and sang the sun in flight,</p>
+    <p class="b15-l30 forestgreen">And learn, too late, they grieved it on its way,</p>
+    <p class="b25-r20 gold">Do not go gentle into that good night.</p>
+    
+    <p class="b15-l30 forestgreen">Grave men, near death, who see with blinding sight</p>
+    <p class="t40-l10 skyblue">Blind eyes could blaze like 4 meteors and be gay, Rage, rage against the dying of the light.</p>
+    <p class="t20-r30 lightpink">And you, my father, there on the sad height,</p>
+    <p class="b25-r20 gold">Curse, bless, me now with your fierce tears, I pray.</p>
+    
+    <p class="b15-l30 gold">Do not go gentle into that good night.</p>
+    <p class="t20-r30 forestgreen">Rage, rage against the dying of the light.</p>
+
+    
+    <a href="../index.html" id="back">back</a>
+  
+    <div id="square"></div>
+    <div id="rectangle"></div>
+    <div id="circle">
+      <div id="circle-inside"></div> 
+      <!-- A circle inside a circle -->
+    </div>
+    <div id="oval"></div>
+    <div id="triangle"></div>
+  </body>
+
+</body>
+<div id="glass">
+    <div id="mouth"></div>
+
+
+</html>
