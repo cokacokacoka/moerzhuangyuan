@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS Basics Exercise</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link rel="icon" href="../assets/favicon.png" />
+    <link rel="stylesheet" href="../main.css" />
+    <style>
+      #square1, #square2, #square3 {
+        width: 50px;
+        height: 50px;
+        background-color: black;
+        margin: 10px;
+        display: inline-block;
+      }
+      .circle {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: black;
+        display: inline-block;
+      }
+      .mono {
+        font-family: 'Courier New', Courier, monospace;
+      }
+      .big {
+        font-size: 2rem;
+      }
+      .green {
+        background-color: green;
+        color: white;
+      }
+      .red {
+        background-color: red;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    
+    <button onclick="console.log(this);">Check me in console</button>
+    <button onclick="alert('You just clicked a button')">click me!</button>
+    <button onmouseover="console.log('mouse over now');" onmouseout="console.log('mouse out now');">Hover me...</button>
+    
+    <p>click the following shapes to shape them:</p>
+    <div id="square1" onclick="this.style.width='200px';"></div>
+    <div id="square2" onclick="this.style.background='red';"></div>
+    <div id="square3" onclick="this.style.border='10px solid pink';"></div>
+
+    <p onclick="this.style.display='none'">Click me to make me disappear</p>    
+
+    <p class="red" onclick="this.className='green';">Click me to change my class</p>
+    <p class="red mono big" onclick="this.className='green';">Click me to change my class</p>
+    <p class="red mono big" onclick="this.className='green mono big';">Click me to change my class</p>
+
+    <div class="circle" onclick="this.classList.add('red')"></div>
+    <div class="circle red" onclick="this.classList.remove('red')"></div>
+    <div class="circle red" onclick="this.classList.toggle('red')"></div>
+
+    <p onclick="this.textContent='Some Bold Text'">Some Text</p>
+    <p onclick="this.innerHTML='Some <b>Bold</b> Text'">Some Text</p>
+    <article onclick="this.innerHTML='Shopping list:<ul><li>bread</li><li>milk</li><li>cheese</li></ul>'">Shopping list:</article>
+    
+    
+    <a href="../index.html" id="back">back</a>
+    
+    <script src="js-basics.js"></script>
+  </body>
+</html>
